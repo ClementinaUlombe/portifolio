@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #E1BEE7;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background: #E1BEE7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+.sobre-container {
+    display: flex; /* Utiliza flexbox para alinhar os itens */
+    justify-content: space-between; /* Espaço entre os itens */
+    align-items: center; /* Alinha itens verticalmente */
+}
+
+.informacoes {
+    font-size: 28px; /* Aumenta o tamanho da fonte do texto */
+    width: 50%; /* Define a largura das informações para 50% */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+.minha-foto {
+    width: 50%; /* Mantém a largura da imagem em 50% */
+    height: auto; /* Mantém a proporção */
+    max-height: 550px; /* Define uma altura máxima para a imagem */
+    border-radius: 10px; /* Deixa a imagem com bordas arredondadas */
+    display: block;
+}
