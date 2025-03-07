@@ -5,22 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio - Clementina Katchinombelo Ulombe</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        section {
+            display: none; /* Esconde todas as seções inicialmente */
+        }
+        #sobre {
+            display: block; /* Mostra apenas a seção "Sobre Mim" */
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Clementina Katchinombelo Ulombe</h1>
-        <p>Desenvolvedora Frontend | React | JavaScript</p>
+        <p>Desenvolvedora Frontend</p>
         <p>Finalista no curso de Engenharia Informática e Sistemas de Informação</p>
         <nav>
             <ul class="menu">
-                <li><a href="#sobre">Sobre Mim</a></li>
-                <li><a href="#educacao">Educação</a></li>
-                <li><a href="#cursos">Cursos Profissionais</a></li>
-                <li><a href="#experiencia">Experiência de Trabalho</a></li>
-                <li><a href="#experiencias-extra">Experiências Extra-Curriculares</a></li>
-                <li><a href="#tecnologias">Ferramentas e Tecnologias</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="#sobre" class="menu-link">Sobre Mim</a></li>
+                <li><a href="#educacao" class="menu-link">Educação</a></li>
+                <li><a href="#cursos" class="menu-link">Cursos Profissionais</a></li>
+                <li><a href="#experiencia" class="menu-link">Experiência de Trabalho</a></li>
+                <li><a href="#experiencias-extra" class="menu-link">Experiências Extra-Curriculares</a></li>
+                <li><a href="#tecnologias" class="menu-link">Ferramentas e Tecnologias</a></li>
+                <li><a href="#projetos" class="menu-link">Projetos</a></li>
+                <li><a href="#contato" class="menu-link">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -29,11 +37,13 @@
         <h2>Sobre Mim</h2>
         <div class="sobre-container">
             <div class="informacoes">
-                <p>Estudante de Engenharia Informática no quinto ano de graduação, sou apaixonada por resolver problemas de forma rápida e eficiente, utilizando a tecnologia como ferramenta para transformar desafios em soluções inovadoras. Ao longo da minha jornada acadêmica, participei de diversos projetos práticos que me permitiram aplicar conceitos teóricos em situações reais, aprimorando minhas habilidades em análise de sistemas e desenvolvimento de software. Estou sempre em busca de novos desafios que não apenas testem minhas capacidades, mas também me proporcionem oportunidades de crescimento pessoal e profissional. Acredito que a colaboração e a comunicação são essenciais para o sucesso em equipe, e estou comprometida em contribuir de forma significativa para projetos desafiadores na área da Engenharia Informática, sempre com um olhar atento às melhores práticas e inovações do setor.</p>            </div>
+                <p>Estudante de Engenharia Informática no quinto ano de graduação, sou apaixonada por resolver problemas de forma rápida e eficiente, utilizando a tecnologia como ferramenta para transformar desafios em soluções inovadoras. Ao longo da minha jornada acadêmica, participei de diversos projetos práticos que me permitiram aplicar conceitos teóricos em situações reais, aprimorando minhas habilidades em análise de sistemas e desenvolvimento de software. Estou sempre em busca de novos desafios que não apenas testem minhas capacidades, mas também me proporcionem oportunidades de crescimento pessoal e profissional. Acredito que a colaboração e a comunicação são essenciais para o sucesso em equipe, e estou comprometida em contribuir de forma significativa para projetos desafiadores na área da Engenharia Informática, sempre com um olhar atento às melhores práticas e inovações do setor.</p>
+            </div>
             <img src="img/portifolio.jpg" alt="Foto de Clementina Ulombe" class="minha-foto">
         </div>
     </section>
 
+    <!-- Seções ocultas -->
     <section id="educacao">
         <h2>Educação</h2>
         <h3>Escola Do IIº Ciclo Do Ensino Secundário Do Cazenga 7055</h3>
@@ -88,28 +98,34 @@
     
     <section id="projetos">
         <h2>Projetos</h2>
+        
         <div class="projeto">
             <h3>Projeto 1 - Meu Primeiro Site</h3>
             <p>Uma página simples criada com HTML e CSS.</p>
             <a href="https://clementinaulombe.github.io/ultimo-projeto-portfolio/" target="_blank">Ver Projeto</a>
         </div>
+
+        <div class="projeto">
+            <h3>Projeto 2 - Aplicação de Filme</h3>
+            <p>Desenvolvi uma aplicação de filme totalmente responsiva, utilizando React e uma base de dados de filmes. A aplicação é funcional e hospedada no Vercel, proporcionando uma experiência de usuário fluida.</p>
+            <a href="https://aplicacao-filme.vercel.app/" target="_blank">Ver Projeto</a>
+        </div>
+        <p>Além destes, ainda tenho mais projetos pessoais que desenvolvi.</p>
     </section>
 
     <section id="contato">
         <h2>Contato</h2>
         <p>Telefone: 924452269 - 940769911</p>
         <p>Email: <a href="mailto:clementinaulombe92@gmail.com">clementinaulombe92@gmail.com</a></p>
-        <p>Facebook: <a href="https://web.facebook.com/clementina.zeferinolopes">Clementina Katchinombelo Ulombe Clekaulombe</a></p>
-        <p>GitHub: <a href="https://github.com/ClementinaUlombe" target="_blank">ClementinaUlombe</a></p>
         
         <div class="social-icons">
-            <a href="https://www.linkedin.com/in/seu-perfil-linkedin" target="_blank">
+            <a href="https://www.linkedin.com/in/clementina-ulombe-428871323?trk=universal-search-cluster" target="_blank">
                 <img src="img/linkedin_icon-icons.com_53609.png" alt="LinkedIn" width="30" height="30">
             </a>
             <a href="https://github.com/ClementinaUlombe" target="_blank">
                 <img src="img/github-logo_icon-icons.com_73546.png" alt="GitHub" width="30" height="30">
             </a>
-            <a href="https://web.facebook.com/clementina.zeferinolopes" target="_blank">
+            <a href="https://www.facebook.com/share/1Fzq5QM7gy/?mibextid=wwXIfr" target="_blank">
                 <img src="img/facebook_icon-icons.com_59205 (1).png" alt="Facebook" width="30" height="30">
             </a>
             <a href="https://www.instagram.com/seu-perfil-instagram" target="_blank">
@@ -118,6 +134,25 @@
         </div>
     </section>
 
-    <script src="script.js"></script>
+    <script>
+        // JavaScript para mostrar seções ao clicar no menu
+        const menuLinks = document.querySelectorAll('.menu-link');
+        const sections = document.querySelectorAll('section');
+
+        menuLinks.forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault(); // Previne o comportamento padrão do link
+
+                // Esconde todas as seções
+                sections.forEach(section => {
+                    section.style.display = 'none';
+                });
+
+                // Mostra a seção correspondente
+                const targetId = this.getAttribute('href');
+                document.querySelector(targetId).style.display = 'block';
+            });
+        });
+    </script>
 </body>
 </html>
